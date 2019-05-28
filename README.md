@@ -27,7 +27,7 @@ Outros possíveis métodos existentes no base são:
 ```php 
 ContactType::getOption($value);
 ContactType::getValues();
-ContactType::getLabels;
+ContactType::getLabels();
 ContactType::getLabel($value);
 ContactType::getValue($label);
 ContactType::sort($direction = 'ASC', $column = 'label');
